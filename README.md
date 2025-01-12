@@ -31,10 +31,11 @@ A comprehensive Python-based pipeline for collecting, analyzing, and deriving in
   - Comparative sentiment analysis
 
 ## Installation
+(The project was built/tested in an Anaconda environment with Python 3.9)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/reddit-data-analysis.git
+git clone https://github.com/taliff0001/redditlens.git
 cd reddit-data-analysis
 ```
 
