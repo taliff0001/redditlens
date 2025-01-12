@@ -1,0 +1,17 @@
+name: redditlens
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - praw>=7.7.0
+  - sqlalchemy
+  - pandas
+  - numpy>=1.24.0
+  - spacy>=3.7.0
+  - transformers
+  - pytorch
+  - vadersentiment
+  - pip
+  - pip:
+    - python-dotenv

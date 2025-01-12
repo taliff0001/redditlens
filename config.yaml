@@ -1,0 +1,30 @@
+# Database configuration
+database:
+    dialect: postgresql     # Database type (postgresql, mysql, sqlite, etc.)
+    driver: psycopg2       # Python database driver
+    username: YOUR_DB_USERNAME   # Database username
+    password: YOUR_DB_PASSWORD   # Database password
+    host: localhost        # Database host
+    port: 5432            # Database port
+    database: reddit_db    # Database name
+    echo: false           # SQL query logging (true/false)
+
+# Storage settings for CSV files
+storage:
+    base_path: "./data"    # Root directory for data storage
+    compress: true         # Enable data compression
+    max_batch_size: 1000   # Maximum items per batch
+
+# Reddit API credentials
+reddit:
+    client_id: "YOUR_CLIENT_ID"         # Reddit API client ID
+    client_secret: "YOUR_CLIENT_SECRET" # Reddit API secret
+    user_agent: "YOUR_APP_NAME/1.0"    # User agent string
+    username: "YOUR_REDDIT_USERNAME"    # Reddit username
+    password: "YOUR_REDDIT_PASSWORD"    # Reddit password
+
+# Default search parameters
+search_defaults:
+    time_filter: "week"    # Time range for searches (day/week/month/year/all)
+    limit: 100            # Default number of results to fetch
+    sort: "relevance"     # Sort method (relevance/hot/top/new/comments)
