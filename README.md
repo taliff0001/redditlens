@@ -31,7 +31,7 @@ A comprehensive Python-based pipeline for collecting, analyzing, and deriving in
   - Comparative sentiment analysis
 
 ## Installation
-(The project was built/tested in an Anaconda environment with Python 3.9)
+(The project was built/tested with Python 3.9)
 
 1. Clone the repository:
 ```bash
