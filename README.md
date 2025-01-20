@@ -36,7 +36,7 @@ A comprehensive Python-based pipeline for collecting, analyzing, and deriving in
 1. Clone the repository:
 ```bash
 git clone https://github.com/taliff0001/redditlens.git
-cd reddit-data-analysis
+cd redditlens
 ```
 
 2. Install dependencies:
