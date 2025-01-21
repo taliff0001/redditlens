@@ -31,7 +31,7 @@ A comprehensive Python-based pipeline for collecting, analyzing, and deriving in
   - Comparative sentiment analysis
 
 ## Installation
-(The project was built/tested with Python 3.9)
+(It's not as easy as these instructions, I am afraid. Plan to update as I get the time. 😊)
 
 1. Clone the repository:
 ```bash
