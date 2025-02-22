@@ -1,6 +1,12 @@
 # Reddit Lens
 
-A comprehensive Python-based pipeline for collecting, analyzing, and deriving insights from Reddit data. This project combines data collection, storage, text processing, and sentiment analysis capabilities using both VADER and Transformer-based models.
+![Lens Logo](https://github.com/taliff0001/redditlens/blob/main/lens_logo_white_bg.png)
+
+A comprehensive Python-based pipeline for collecting, analyzing, and deriving insights from Reddit data. This project combines data collection, storage, text processing, and sentiment analysis capabilities.
+
+**Watch the [YouTube demonstration video](https://www.youtube.com/watch?v=nN-21hKGrVA)**
+
+For any inquiries, please contact me at [tmaliff@outlook.com](mailto:tmaliff@outlook.com).
 
 ## Features
 
@@ -31,7 +37,7 @@ A comprehensive Python-based pipeline for collecting, analyzing, and deriving in
   - Comparative sentiment analysis
 
 ## Installation
-(It's not as easy as these instructions, I am afraid. Plan to update as I get the time. 😊)
+(Contact me if you have any issues, I will help you troubleshoot. 🙂)
 
 1. Clone the repository:
 ```bash
@@ -116,3 +122,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - VADER Sentiment Analysis
 - Hugging Face Transformers
 - SQLAlchemy
+```
+You can edit the `README.md` file through the GitHub web interface using the [edit link](https://github.com/taliff0001/redditlens/edit/main/README.md).
