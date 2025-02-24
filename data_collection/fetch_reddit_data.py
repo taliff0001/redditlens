@@ -46,19 +46,20 @@ class RedditDataFetcher:
         Raises:
             FileNotFoundError: If config.yaml cannot be found
         """
-        # possible_locations = [
-        #     Path.cwd() / 'config.yaml',
-        #     Path.cwd().parent / 'config.yaml',
-        #     Path(__file__).parent / 'config.yaml',
-        #     Path(__file__).parent.parent / 'config.yaml',
-        # ]
-        #
-        # for location in possible_locations:
-        #     if location.exists():
-        return '/Users/tommya/Desktop/12-24_dev/redditlens/config.yaml'
+        possible_locations = [
+            Path.cwd() / 'config.yaml',
+            Path.cwd().parent / 'config.yaml',
+            Path(__file__).parent / 'config.yaml',
+            Path(__file__).parent.parent / 'config.yaml',
+        ]
+        
+        for location in possible_locations:
+            if location.exists():
+                return location
 
-        # raise FileNotFoundError("Could not find config.yaml in standard locations")
+        raise FileNotFoundError("Could not find config.yaml in standard locations")
 
+    
     def _load_config(self, config_path: Union[str, Path]) -> Dict:
         """
         Load configuration from yaml file.
